@@ -1,6 +1,7 @@
 // defines pins numbers
 const int trigPin = 2; // ESP32-DevKit (Geekworm Easy Kit ESP32)
 const int echoPin = 5; // ESP32-DevKit (Geekworm Easy Kit ESP32)
+const int LEDpin = 3; // pin to connect LED
 
 // defines variables
 long tempAir = 20.0; // Air temperature in degree Celsius
