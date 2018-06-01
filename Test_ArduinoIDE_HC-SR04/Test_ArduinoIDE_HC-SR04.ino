@@ -3,7 +3,7 @@ const int trigPin = 2; // ESP32-DevKit (Geekworm Easy Kit ESP32)
 const int echoPin = 5; // ESP32-DevKit (Geekworm Easy Kit ESP32)
 
 // defines variables
-long tempAir = 20.0; // Air temperature in degree Celsius
+long tempAir = 30.0; // Air temperature in degree Celsius
 long vAir; // sonic speed in m/s
 long duration; // sound wave travel time in microseconds
 int distance;
