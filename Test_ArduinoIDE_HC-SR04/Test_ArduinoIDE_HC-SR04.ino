@@ -4,7 +4,7 @@ const int echoPin = 5; // ESP32-DevKit (Geekworm Easy Kit ESP32)
 const int LEDpin = 3; // pin to connect LED
 
 // defines variables
-long tempAir = 30.0; // Air temperature in degree Celsius
+long tempAir = 25.0; // Air temperature in degree Celsius
 long vAir; // sonic speed in m/s
 long duration; // sound wave travel time in microseconds
 int distance;
