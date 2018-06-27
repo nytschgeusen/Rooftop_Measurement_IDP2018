@@ -1,0 +1,14 @@
+- Report 1
+
+ Second presentation's project components:
+1.	One ultrasonic sensor
+2.	One limit switch
+3.	Arduino
+4.	DHT11 ( Temperature and Humidity sensor )
+5.	LED
+
+ Required components for the final presentation:
+1.	Another ultrasonic sensor (Received)
+2.	WiFi shield
+3.	Another DHT11 sensor ( Outdoor usage)
+4.  Higher quality limit switch
