@@ -11,3 +11,10 @@ Microprocessor board Arduino Mega Rev 3 (https://en.wikipedia.org/wiki/Arduino)
 
 * Usage with Raspberry Pi (https://github.com/alaudet/hcsr04sensor)
 * Usage with Arduino (https://github.com/ErickSimoes/Ultrasonic)
+
+## Python Tutorials
+
+* Official Python 3 tutorial (https://docs.python.org/3/tutorial)
+* Python 3 Programming Introduction Tutorial (https://pythonprogramming.net/introduction-to-python-programming)
+
+* Using Python with Arduino (http://www.toptechboy.com/using-python-with-arduino-lessons)
