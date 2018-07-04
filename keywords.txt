@@ -1,3 +1,26 @@
+DHT-sensor
+###########################################
+# Syntax Coloring Map For DHT-sensor-library
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+DHT	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+begin KEYWORD2
+readTemperature KEYWORD2
+convertCtoF KEYWORD2
+convertFtoC KEYWORD2
+computeHeatIndex KEYWORD2
+readHumidity KEYWORD2
+read KEYWORD2
+=======
 ###################################
 # Syntax Coloring Map For NewPing
 ###################################
@@ -27,5 +50,6 @@ convert_cm	KEYWORD2
 
 ###################################
 # Constants (LITERAL1)
-###################################
+##############################
+master
 
