@@ -35,5 +35,5 @@ while True: # While loop that loops forever
     plt.pause(.000001)                     #Pause Briefly. Important to keep drawnow from crashing
     cnt=cnt+1
     if(cnt>50):                            #If you have 50 or more points, delete the first one from the array
-        tempF.pop(0)                       #This allows us to just see the last 50 data points
-        pressure.pop(0)
+        t.pop(0)                       #This allows us to just see the last 50 data points
+        h.pop(0)
