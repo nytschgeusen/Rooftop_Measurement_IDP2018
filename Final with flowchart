@@ -78,7 +78,7 @@ void setup()
     }
     delay(250);
 }
-
+// Existed loops
 void loop () {
  inout ();
  temphumid();
@@ -115,5 +115,11 @@ void temphumid ()
   lcd.print(t);
   lcd.setCursor(14, 1);
   lcd.print("*C");
+  if ( 18 <= t <= 26 && 30 <= h <= 70 ) {
+    Serial.println("Thermal comfort is achieved");
+  }
+    else {
+      Serial.println("Open windows");
+    }
   delay (500);
 }
