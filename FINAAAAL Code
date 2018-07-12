@@ -32,8 +32,11 @@ void IN()
     lcd.print("N:");
     lcd.setCursor(4, 0);
     lcd.print(count);
+    lcd.setCursor(7, 0);
+    lcd.print("Persons");
     }
-        if ( count < 0 ) {
+    if ( count < 0 ) {
+      count = 0;
       lcd.clear();
     }
     delay(1000);
@@ -47,8 +50,11 @@ void OUT()
       lcd.print("N:");
       lcd.setCursor(4, 0);
       lcd.print(count);
+      lcd.setCursor(7, 0);
+      lcd.print("Persons");
     }
-        if ( count < 0 ) {
+    if ( count < 0 ) {
+      count = 0;
       lcd.clear();
     }
     delay(1000);
@@ -63,8 +69,11 @@ void setup()
       lcd.print("N:");
       lcd.setCursor(4, 0);
       lcd.print(count);
+      lcd.setCursor(7, 0);
+      lcd.print("Persons");
     }
     if ( count < 0 ) {
+      count = 0;
       lcd.clear();
     }
     delay(250);
@@ -86,6 +95,9 @@ void inout () {
     OUT();
   }
 }
+
+ // Start of reading temperature and humidity
+ 
 void temphumid ()
 {
   int h = dht.readHumidity();
